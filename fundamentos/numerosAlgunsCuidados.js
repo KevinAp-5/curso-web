@@ -1,6 +1,8 @@
 console.log(7 / 0) // retorna o tipo Infinity
 
 console.log("10" / 2) // ocorre por conta de javascript ter tipagem fraca
+console.log('2' + 2) // não vai somar, vai concatenar
+console.log('2' - 2) // vai subtrair
 
 console.log("10,3" / 2) // retorna NaN por conta da virgula
 
