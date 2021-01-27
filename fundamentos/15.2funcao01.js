@@ -1,7 +1,7 @@
 // Funcao sem retorno
 
 /*
- * A função executa um processo baseado nas sentenãs de código
+ * A função executa um processo baseado nas sentenças de código
  * ela define bloco, que é delimitado por chaves
  * ex: {
    ...

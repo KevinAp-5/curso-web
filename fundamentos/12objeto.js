@@ -12,7 +12,7 @@ const produto2 = { // não é a mesma coisa que um json
     a: {
         x: false,
         b: {
-            y = true
+            y: false
         }
     },
 }

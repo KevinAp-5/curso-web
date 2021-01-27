@@ -16,8 +16,8 @@ let numero_alunos = idade /* numero_alunos vai receber o valor atribuido
 a variavel idade, e não pegando o mesmo endereço do valor */
 
 idade = 20
-console.log(idade)
 
+console.log(idade)
 console.log(numero_alunos)
 
 console.log(user1)

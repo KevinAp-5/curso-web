@@ -26,6 +26,5 @@ console.log(subtra(10, 2))
 /* se a função recebe apenas um parametro, pode reduzir mais ainda a função
 tirando o parenteses. Ex: */
 
-const saudacao = a => `Olá, ${a}.`
+var saudacao = a => `Olá, ${a}.`
 console.log(saudacao("Kevin"))
-

@@ -1,4 +1,4 @@
-var a /* foi oque aconteceu. jogou a variavel para cima, por isso tem valor
+var a /* jogou a variavel para cima, por isso tem valor
 undefined. Em outras linguagens isso daria erro por conta de não ter
 essa funcionalidade */
 console.log('a =', a) // undefined, mas isso mostra que a variavel existe
@@ -13,7 +13,7 @@ function testando (a) {
 }
 // testando()
 /*
-não tem motivos para usar isso. Declares suas variaveis antes de usar.
+não tem motivos para usar isso. Declare suas variaveis antes de usar.
 è apenas uma curiosidade da linguagem, e ter conhecimento disso para você ter
 ciencia do que está acontecendo com seu código caso você não obtenha
 o resultado esperado no seu código e a causa disso é o hoisting

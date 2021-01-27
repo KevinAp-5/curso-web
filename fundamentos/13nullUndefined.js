@@ -6,7 +6,7 @@ um valor INDEFINIDO */
 // console.log(value2)
 
 value = null /* ausência de valor. A variavel foi definida como ela não
-para nenhum local da memória */
+aponta para nenhum local da memória */
 console.log(value)
 
 /* 
@@ -14,7 +14,7 @@ console.log(value)
  * como null e NÃO como undefined. deixa o undefined apenas para a linguagem
  * utilizar quando aquele valor não foi inicializado, não definido.
  * ex: nome = 'kevin'
- * 'agora eu quero "zera" essa variavel'
+ * 'agora eu quero "zerar" essa variavel'
  * nome = null
 */
 
@@ -23,6 +23,7 @@ console.log(value)
 
 const prod = {}
 console.log(prod.preco) // >>> undefined
+
 /*
  * Ao tentar acessar algo de um "undefined", vai subir um TypeError
  * ex: console.log(prod.preco.a) >>> TypeError: Cannot read property 'a'
