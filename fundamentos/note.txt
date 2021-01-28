@@ -1,0 +1,2 @@
+A numeração dos arquivos não é referente a numeração das aulas do curso,
+é apenas para enumerar os arquivos e saber a ordem de criação.
