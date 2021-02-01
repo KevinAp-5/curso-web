@@ -7,11 +7,10 @@ function random_number([min = 0, max = 1000]) { // mesma ideia, mas com colchete
 }
 
 console.log(random_number([10, 20])) /* Como estamos usando arrays, passamos
-apenas os items, já no objeto é mais claro a leitura por conta das chaves
-*/
+apenas os items, já no objeto é mais claro a leitura por conta das chaves */
+
 // não vou colocar muitos exemplos pois ja vimos isso no arquivo anterior
 console.log(random_number([, 300])) // apenas passando o max
 console.log(random_number([200, ])) // apenas passando o min
-// podemos passar array vazio também, igual no exemplo com objetos
-
-// se passarmos nenhum array, teremos o erro igual do exemplo anterior
+console.log(random_number([])) // passando um array vazio
+console.log(random_number()) // erro porque não tem array por padrão na func
