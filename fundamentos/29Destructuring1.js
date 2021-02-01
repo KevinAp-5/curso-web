@@ -1,6 +1,6 @@
 // novo recurso do ES2015
 
-const humano = { // suponhamos que queremos extrair o nome e idaded do obj
+const humano = { // suponhamos que queremos extrair o nome e idade do obj
     nome: 'larissa',
     idade: 17,
     endereco: {
@@ -11,7 +11,7 @@ const humano = { // suponhamos que queremos extrair o nome e idaded do obj
 
 /* Você pode resolver esse problema usando uma váriavel, let nome = humano.nome
 Mas usaremos o operador destructoring que é uma forma simplificada de tirar de
-uma estrutura dois atributos*/
+uma estrutura elementos*/
 
 const {nome, idade} = humano /*essas chaves não é para criar um objeto, essas
 chaves representa o operador destructuring */
@@ -31,26 +31,26 @@ um exemplo de que você também pode fazer um nome/valor nesse caso*/
 
 // const {sobrenome, humor_atual} = humano // comentado para exemplo abaixo
 /* console.log(sobrenome, humor_atual) /* Como já vimos anteriormente exmeplos
-semelhantes de atributos que nãó existem, não é uma surpresa ele retornar
+semelhantes de atributos que não existem, não é uma surpresa ele retornar
 undefined */
 
 /* Mas e se você não quer correr o risco de uma das variáveis retornar esse
-valor. Você pdoe atribuir um valor padrão*/
+valor, Você pode atribuir um valor padrão*/
 
 const {sobrenome = true, humor_atual = true} = humano /* Se não vier
-nada(undefined) retorne true. Cada variavel tem que ter o seu pŕoprio sinal*/
+nada(undefined) retorne true. Cada variavel tem que ter o seu próprio sinal*/
 console.log(sobrenome, humor_atual)
 
-/* não vai criar um objeto endereco com seus atributos requeridos. Não vai
-extrair logradouro, numero, referencia de humano, e sim olhando de endereço
-que está dentro de humano */
-// referencia nao existe, mas colocamos um valor padrão para ele
 const { endereco: {logradouro, numero, referencia=null}} = humano
+/* não vai criar um objeto endereco com seus atributos requeridos. Não vai
+extrair logradouro, numero e referencia de humano, e sim olhando de endereço
+que está dentro de humano */
+
 console.log(logradouro, numero, referencia) /* as variaveis de endereco, não
 endereco sem sí */
 // console.log(endereco) // not defined
 
-// caso você queria o objeto endereco, é so requisitalo na sintaxe abaixo
+// caso você queria o objeto endereco, é so requisita-lô na sintaxe abaixo
 const {endereco} = humano
 console.log(endereco)
 
